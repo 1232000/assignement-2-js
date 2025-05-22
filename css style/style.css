@@ -1,0 +1,47 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px ;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding-block: 50px;
+    margin-block: 80px;
+    scroll-margin-top: 65px;
+}
+/* font-----------------------------------------------------------------------------------*/
+.fs-14{
+    font-size: 14px;
+}
+.fs-80{
+    font-size: 80px;
+}
+.fw-900{
+    font-weight: 900;
+}
+.poet{
+    font-family: "Poetsen One", sans-serif;
+}
+.lux{
+    font-family: "Luxurious Roman", serif;
+}
+/* ------------------------------------------------------------------------------- */
+button#new{
+    background-color: #0000FF;
+    width: 250px;
+    height: 80px;
+}
+button#new:hover{
+    background-color: #008000;
+}
+#quote{
+    line-height: 80px;
+}
